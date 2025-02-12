@@ -56,19 +56,12 @@ http://localhost:8080
 {
   "order_id": 123,
   "token": "payment_token",
-  "is_success": true
 }
 ```
 Выходные данные:
 ```json
 {
-  "id": 123,
-  "status": "approved",
-  "created_at": "2023-10-02T12:00:00Z",
-  "processed_at": "2023-10-02T12:05:00Z",
-  "completed_at": "2023-10-02T12:10:00Z",
-  "user_id": 456,
-  "moderator_id": 789,
+  "order_id": 123,
   "is_success": true
 }
 ```
